@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BonkAgent - AI-Powered Browser Automation</title>
+    <link rel="stylesheet" href="landing.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="https://i.postimg.cc/9M7K1Sph/image.webp" alt="BonkAgent">
+                <span>BonkAgent</span>
+            </div>
+            <a href="#waitlist" class="nav-cta">Join Waitlist</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Build Custom Chrome Extensions in Seconds</h1>
+                <p class="hero-description">Stop installing random, unsafe extensions. BonkAgent lets you describe any task and get a verified, personal Chrome extension instantly. No coding required. Paid with BONK.</p>
+                <div class="hero-cta">
+                    <form class="hero-form" id="hero-form">
+                        <input type="email" placeholder="Enter your email address" required>
+                        <button type="submit">Get Early Access</button>
+                    </form>
+                    <p class="form-success" id="hero-success">🎉 Thanks for joining! We'll be in touch soon.</p>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-wrapper">
+                    <img src="image.png" alt="BonkAgent Interface" class="hero-image">
+                    <div class="hero-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="features-container">
+            <h2 class="section-title">The Problem with Extensions Today</h2>
+            <div class="problem-section">
+                <div class="problem-card" data-reveal>
+                    <div class="problem-icon">⚠️</div>
+                    <h3>Random Extensions Are Unsafe</h3>
+                    <p>Auto-updates from unknown publishers create security risks. Companies block extensions because of unclear permissions.</p>
+                </div>
+                <div class="problem-card" data-reveal>
+                    <div class="problem-icon">🚫</div>
+                    <h3>Coding Is a Barrier</h3>
+                    <p>Non-developers can't automate simple tasks. One-off scripts break and aren't reusable across teams.</p>
+                </div>
+                <div class="problem-card" data-reveal>
+                    <div class="problem-icon">⏰</div>
+                    <h3>Manual Workflows Waste Time</h3>
+                    <p>Repetitive tasks on Wikipedia, Canva, and social media eat up hours that could be automated.</p>
+                </div>
+            </div>
+            
+            <h2 class="section-title solution-title">Our Solution</h2>
+            <div class="features-grid">
+                <div class="feature-card" data-reveal>
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Verified & Safe</h3>
+                    <p>Every extension uses least-privilege permissions with human-readable labels. Clear ownership and versioning you can trust.</p>
+                </div>
+                <div class="feature-card" data-reveal>
+                    <div class="feature-icon">⚡</div>
+                    <h3>Instant Generation</h3>
+                    <p>Describe any task in plain English. Get a working Chrome extension in seconds. Saved, reusable, and yours forever.</p>
+                </div>
+                <div class="feature-card" data-reveal>
+                    <div class="feature-icon">💎</div>
+                    <h3>BONK-Powered Credits</h3>
+                    <p>Buy Credits only with BONK. Fixed pricing in Credits keeps costs stable while driving real utility for the token.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section class="roadmap">
+        <div class="roadmap-container">
+            <div class="roadmap-content" data-reveal>
+                <h2 class="section-title">Showcase Extensions</h2>
+                <p class="roadmap-intro">Launch with 5 powerful extensions that solve real problems instantly.</p>
+                <div class="roadmap-items">
+                    <div class="roadmap-item" data-reveal>
+                        <div class="roadmap-number">💰</div>
+                        <div class="roadmap-info">
+                            <h3>BonkBack</h3>
+                            <p>Coupon and cashback helper with BONK rewards. Honey-style value, instantly.</p>
+                        </div>
+                    </div>
+                    <div class="roadmap-item" data-reveal>
+                        <div class="roadmap-number">✍️</div>
+                        <div class="roadmap-info">
+                            <h3>BonkWrite</h3>
+                            <p>Writing assistant in any text area. Pro rewrites consume Credits.</p>
+                        </div>
+                    </div>
+                    <div class="roadmap-item" data-reveal>
+                        <div class="roadmap-number">📚</div>
+                        <div class="roadmap-info">
+                            <h3>BonkWiki</h3>
+                            <p>Highlight text on Wikipedia and get a clean summary in one click.</p>
+                        </div>
+                    </div>
+                    <div class="roadmap-item" data-reveal>
+                        <div class="roadmap-number">🎨</div>
+                        <div class="roadmap-info">
+                            <h3>BonkCanva</h3>
+                            <p>Replace all Pro images with placeholders to finish designs without paid assets.</p>
+                        </div>
+                    </div>
+                    <div class="roadmap-item" data-reveal>
+                        <div class="roadmap-number">🚫</div>
+                        <div class="roadmap-info">
+                            <h3>BonkBlock</h3>
+                            <p>Hide ads, trends, and suggested content to stay focused.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="waitlist">
+        <div class="cta-container">
+            <h2 class="cta-title">Ready to automate your world?</h2>
+            <p class="cta-description">Be the first to know when BonkAgent launches. Join our waitlist for exclusive early access and updates.</p>
+            <form class="cta-form" id="cta-form">
+                <input type="email" placeholder="your.email@example.com" required>
+                <button type="submit">Join the Waitlist</button>
+            </form>
+            <p class="form-success" id="cta-success">🎉 You're on the list! We'll email you soon.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2025 BonkAgent. Safe personal Chrome extensions in seconds. Powered by BONK.</p>
+        </div>
+    </footer>
+
+    <script src="landing.js"></script>
+</body>
+</html>
